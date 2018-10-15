@@ -211,8 +211,7 @@ table {
  * Global Styles
  */
 body {
-  background-color: #131a20;
-  background-image: url(dummy/background.jpg);
+  background-color: #000;
   background-position: top center;
   background-repeat: no-repeat;
   color: #84878d;
@@ -301,7 +300,7 @@ form textarea {
       width: 45px;
       height: 45px;
       border-radius: 50%;
-      background: white;
+      background: black;
       text-align: center;
       line-height: 2.5;
       font-size: 18px;
@@ -312,7 +311,7 @@ form textarea {
               transition: .3s ease; }
       .slider .flex-direction-nav a:hover {
         background-color: #ffaa3c;
-        color: white; }
+        color: black; }
     .slider .flex-direction-nav .flex-prev {
       left: 30px; }
     .slider .flex-direction-nav .flex-next {
@@ -1410,7 +1409,7 @@ ul.arrow {
 
 .main-navigation {
   float: right;
-  background: white;
+  background: black;
   border-radius: 5px; }
   .main-navigation .menu-toggle, .main-navigation .menu, .main-navigation .search-form {
     display: inline-block;
@@ -1522,7 +1521,7 @@ ul.arrow {
         color: #ffaa3c; }
 
 .main-content .container {
-  background: white;
+  background: black;
   border-radius: 5px;
   padding: 30px; }
 
